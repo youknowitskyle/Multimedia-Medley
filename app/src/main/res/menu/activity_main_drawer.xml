@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24px"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_imagescaling"
+            android:icon="@drawable/ic_aspect_ratio_24px"
+            android:title="@string/menu_imagescaling" />
+        <item
+            android:id="@+id/nav_videoplayback"
+            android:icon="@drawable/ic_movie_creation_24px"
+            android:title="@string/menu_videoplayback" />
+        <item
+            android:id="@+id/nav_texttospeech"
+            android:icon="@drawable/ic_hearing_24px"
+            android:title="@string/menu_texttospeech" />
+        <item
+            android:id="@+id/nav_speechtotext"
+            android:icon="@drawable/ic_mic_none_24px"
+            android:title="@string/menu_speechtotext" />
+        <item
+            android:id="@+id/nav_fireworks"
+            android:icon="@drawable/ic_brightness_high_24px"
+            android:title="@string/menu_fireworks" />
+    </group>
+</menu>

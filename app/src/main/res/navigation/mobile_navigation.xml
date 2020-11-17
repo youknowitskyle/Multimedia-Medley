@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fireworks"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.fireworks.FireworksFragment"
+        android:label="@string/menu_fireworks"
+        tools:layout="@layout/fragment_fireworks" />
+
+    <fragment
+        android:id="@+id/nav_imagescaling"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.imagescaling.ImageScalingFragment"
+        android:label="@string/menu_imagescaling"
+        tools:layout="@layout/fragment_imagescaling" />
+
+    <fragment
+        android:id="@+id/nav_videoplayback"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.videoplayback.VideoPlaybackFragment"
+        android:label="@string/menu_videoplayback"
+        tools:layout="@layout/fragment_video_playback" />
+
+    <fragment
+        android:id="@+id/nav_texttospeech"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.texttospeech.TextToSpeechFragment"
+        android:label="@string/menu_texttospeech"
+        tools:layout="@layout/fragment_text_to_speech" />
+
+    <fragment
+        android:id="@+id/nav_speechtotext"
+        android:name="edu.ucsb.cs.cs184.kyle.kwongmmmedley.ui.speechtotext.SpeechToTextFragment"
+        android:label="@string/menu_speechtotext"
+        tools:layout="@layout/fragment_speech_to_text" />
+</navigation>
