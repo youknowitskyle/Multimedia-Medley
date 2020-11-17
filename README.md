@@ -1,2 +1,2 @@
-# Multimedia-Medley
+# Multimedia Medley
 Simple Android application.
