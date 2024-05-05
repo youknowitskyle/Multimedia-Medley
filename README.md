@@ -6,4 +6,4 @@ Simple Android application employing Android Jetpack design and coding philosoph
 2.) Video Playback - loads a video included as a resource file\
 3.) Text to Speech\
 4.) Speech to Text\
-5.) Fieworks Animation - a simple animation spawned by touch gesture\
+5.) Fireworks Animation - a simple animation spawned by touch gesture\
